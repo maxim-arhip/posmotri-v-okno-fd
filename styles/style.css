@@ -363,4 +363,10 @@ text-align: center;
   object-fit: cover;
 }
 
+.search-form__label:has(:not(:active):focus-visible){
+  outline: 2px solid white;
+}
 
+.content__list-item:has(:not(:active):focus-visible){
+  outline: 2px solid white;
+}
