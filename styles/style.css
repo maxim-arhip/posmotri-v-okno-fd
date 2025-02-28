@@ -89,13 +89,13 @@ ol {
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
-  }
+}
 
 .content__list {
   display: flex;
   flex-direction: column;
   max-height: 298px;
-  overflow-y: auto;   
+  overflow-y: auto;
   position: relative;
   gap: 30px;
 }
