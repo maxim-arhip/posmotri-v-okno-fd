@@ -41,6 +41,10 @@ ol {
   list-style: none;
 }
 
+.custom-scrollbar {
+  max-height: 299px;
+  overflow: auto;
+}
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
@@ -94,8 +98,6 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  max-height: 298px;
-  overflow-y: auto;
   position: relative;
   gap: 30px;
 }
