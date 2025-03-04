@@ -1,1 +1,1 @@
-https://github.com/maxim-arhip/posmotri-v-okno-fd.git
+https://github.com/maxim-arhip/posmotri_v_okno_fd.git
