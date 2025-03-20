@@ -99,7 +99,10 @@ ol {
   display: flex;
   flex-direction: column;
   position: relative;
-  gap: 30px;
+}
+
+.content__list-item:not(:last-of-type) {
+  margin-bottom: 30px;
 }
 
 .content__details {
@@ -287,12 +290,7 @@ ol {
 
 .more-button {
   min-width: 399px;
-  font-family: Fira Sans Condensed, sans-serif; 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21.6px;
   letter-spacing: 0%;
-  text-align: center;
   width: auto;
   padding: 6px 6px;
 }
@@ -306,6 +304,10 @@ ol {
 }
 
 .content__card-link_current {
+  background-color: #545050;
+}
+
+.content__card-link:active{
   background-color: #545050;
 }
 
